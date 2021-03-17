@@ -45,16 +45,8 @@
   "diagnostic.warningSign": " ",
   "diagnostic.infoSign": "",
   "diagnostic.hintSign": " ",
-  // "diagnostic.displayByAle": true,
-  // "diagnostic.virtualText": true, // this won't work with codelens when error on same line
-
-  // codelens
-  "codeLens.enable": true,
-  "java.referencesCodeLens.enabled": true,
-  "java.implementationsCodeLens.enabled": true,
-  "java.completion.enabled": true,
-  "java.jdt.ls.vmargs": "-javaagent:/usr/local/share/lombok/lombok.jar",
-
+  "diagnostic.displayByAle": true,
+  "diagnostic.virtualText": true, // this won't work with codelens when error on same line
   // list
   "list.indicator": ">",
   "list.selectedSignText": " ",
@@ -69,7 +61,8 @@
     "yaml",
     "json",
     "python",
-    "java"
+    "java",
+    "elixir"
   ],
   "coc.preferences.hoverTarget": "float",
 
@@ -85,7 +78,7 @@
   "python.pythonPath": "python",
   "python.venvPath": "",
   "python.formatting.provider": "black",
-  "python.formatting.blackPath": "~/.local/bin/black",
+  "python.formatting.blackPath": "/usr/local/bin/black",
   "python.formatting.blackArgs": [],
   "python.formatting.autopep8Path": "autopep8",
   "python.formatting.autopep8Args": [],

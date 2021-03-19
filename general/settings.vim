@@ -36,7 +36,8 @@ set timeoutlen=100                      " By default timeoutlen is 1000 ms
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 set incsearch
 set guifont=JetBrainsMono\ Nerd\ Font\ Mono
-
+set scrolloff=10
+set relativenumber
 " New stuff
 " set notimeout nottimeout
 " set scrolloff=1

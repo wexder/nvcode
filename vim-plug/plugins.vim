@@ -31,9 +31,6 @@ Plug 'airblade/vim-rooter'
 Plug 'tpope/vim-sleuth'
 " Better Syntax Support
 Plug 'sheerun/vim-polyglot'
-" Treesitter
-Plug 'nvim-treesitter/nvim-treesitter'
-Plug 'nvim-treesitter/playground'
 " Cool Icons
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'ryanoasis/vim-devicons'
@@ -41,35 +38,21 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'jiangmiao/auto-pairs'
 " Closetags
 Plug 'alvan/vim-closetag'
-" Themes
-Plug 'christianchiarulli/nvcode-color-schemes.vim'
 " Intellisense
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-" Status Line
-Plug 'glepnir/galaxyline.nvim'
 " FZF
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-" Plug 'yuki-ycino/fzf-preview.vim', { 'branch': 'release', 'do': ':UpdateRemotePlugins' }
 Plug 'junegunn/fzf.vim'
 " Git
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
-Plug 'junegunn/gv.vim'
-Plug 'rhysd/git-messenger.vim'
 " Terminal
 Plug 'voldikss/vim-floaterm'
 " Start Screen
 Plug 'mhinz/vim-startify'
-" Vista
-Plug 'liuchengxu/vista.vim'
-" Zen mode
-Plug 'junegunn/goyo.vim'
 " Snippets
 Plug 'honza/vim-snippets'
-Plug 'mattn/emmet-vim'
-" Interactive code
-Plug 'metakirby5/codi.vim'
 " Better tabline
 Plug 'zefei/vim-wintabs'
 Plug 'zefei/vim-wintabs-powerline'
@@ -80,28 +63,15 @@ Plug 'mbbill/undotree'
 " Find and replace
 " Plug 'ChristianChiarulli/far.vim'
 Plug 'brooth/far.vim'
-" Auto change html tags
-Plug 'AndrewRadev/tagalong.vim'
-" live server
-Plug 'turbio/bracey.vim'
-" Smooth scroll
-Plug 'psliwka/vim-smoothie'
 " " async tasks
 Plug 'skywind3000/asynctasks.vim'
 Plug 'skywind3000/asyncrun.vim'
 " Swap windows
 Plug 'wesQ3/vim-windowswap'
-" Markdown Preview
-Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
 " Easily Create Gists
-Plug 'mattn/vim-gist'
 Plug 'mattn/webapi-vim'
-" Colorizer
-Plug 'norcalli/nvim-colorizer.lua'
 " Intuitive buffer closing
 Plug 'moll/vim-bbye'
-" Debugging
-Plug 'puremourning/vimspector'
 " Telescope
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
@@ -109,7 +79,7 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'kaicataldo/material.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-   
+Plug 'nicwest/vim-http'   
 call plug#end()
 
 " Automatically install missing plugins on startup

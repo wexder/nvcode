@@ -74,48 +74,48 @@ let g:which_key_map.a = {
       \ 'w' : [':StripWhitespace'        , 'strip whitespace'],
       \ }
 
-" b is for buffer
-let g:which_key_map.b = {
-      \ 'name' : '+buffer' ,
-      \ '>' : [':BufferMoveNext'        , 'move next'],
-      \ '<' : [':BufferMovePrevious'    , 'move prev'],
-      \ '1' : [':BufferGoto 1'          , 'buffer 1'],
-      \ '2' : [':BufferGoto 2'          , 'buffer 2'],
-      \ '3' : [':BufferGoto 3'          , 'buffer 3'],
-      \ '4' : [':BufferGoto 4'          , 'buffer 4'],
-      \ '5' : [':BufferGoto 5'          , 'buffer 5'],
-      \ '6' : [':BufferGoto 6'          , 'buffer 6'],
-      \ '7' : [':BufferGoto 7'          , 'buffer 7'],
-      \ '8' : [':BufferGoto 8'          , 'buffer 8'],
-      \ '9' : [':BufferGoto 9'          , 'buffer 9'],
-      \ '0' : [':BufferGoto 0'          , 'buffer 0'],
-      \ 'b' : [':BufferPick'            , 'pick buffer'],
-      \ 'd' : [':Bdelete'               , 'delete-buffer'],
-      \ 'D' : [':BufferOrderByDirectory', 'order by directory'],
-      \ 'f' : ['bfirst'                 , 'first-buffer'],
-      \ 'l' : ['blast'                  , 'last buffer'],
-      \ 'L' : [':BufferOrderByLanguage' , 'order by language'],
-      \ 'n' : ['bnext'                  , 'next-buffer'],
-      \ 'p' : ['bprevious'              , 'previous-buffer'],
-      \ '?' : ['Buffers'                , 'fzf-buffer'],
-      \ }
+" " b is for buffer
+" let g:which_key_map.b = {
+"       \ 'name' : '+buffer' ,
+"       \ '>' : [':BufferMoveNext'        , 'move next'],
+"       \ '<' : [':BufferMovePrevious'    , 'move prev'],
+"       \ '1' : [':BufferGoto 1'          , 'buffer 1'],
+"       \ '2' : [':BufferGoto 2'          , 'buffer 2'],
+"       \ '3' : [':BufferGoto 3'          , 'buffer 3'],
+"       \ '4' : [':BufferGoto 4'          , 'buffer 4'],
+"       \ '5' : [':BufferGoto 5'          , 'buffer 5'],
+"       \ '6' : [':BufferGoto 6'          , 'buffer 6'],
+"       \ '7' : [':BufferGoto 7'          , 'buffer 7'],
+"       \ '8' : [':BufferGoto 8'          , 'buffer 8'],
+"       \ '9' : [':BufferGoto 9'          , 'buffer 9'],
+"       \ '0' : [':BufferGoto 0'          , 'buffer 0'],
+"       \ 'b' : [':BufferPick'            , 'pick buffer'],
+"       \ 'd' : [':Bdelete'               , 'delete-buffer'],
+"       \ 'D' : [':BufferOrderByDirectory', 'order by directory'],
+"       \ 'f' : ['bfirst'                 , 'first-buffer'],
+"       \ 'l' : ['blast'                  , 'last buffer'],
+"       \ 'L' : [':BufferOrderByLanguage' , 'order by language'],
+"       \ 'n' : ['bnext'                  , 'next-buffer'],
+"       \ 'p' : ['bprevious'              , 'previous-buffer'],
+"       \ '?' : ['Buffers'                , 'fzf-buffer'],
+"       \ }
 
-" d is for debug
-let g:which_key_map.d = {
-      \ 'name' : '+debug' ,
-      \ 'b' : ['<Plug>VimspectorToggleBreakpoint'              , 'breakpoint'],
-      \ 'B' : ['<Plug>VimspectorToggleConditionalBreakpoint'   , 'conditional breakpoint'],
-      \ 'c' : ['<Plug>VimspectorRunToCursor'                   , 'run to cursor'],
-      \ 'd' : ['<Plug>VimspectorContinue'                      , 'continue'],
-      \ 'f' : ['<Plug>VimspectorAddFunctionBreakpoint'         , 'function breakpoint'],
-      \ 'm' : [':MaximizerToggle'                              , 'maximize window'],
-      \ 'o' : ['<Plug>VimspectorStepOver'                      , 'step over'],
-      \ 'O' : ['<Plug>VimspectorStepOut'                       , 'step out'],
-      \ 'i' : ['<Plug>VimspectorStepInto'                      , 'step into'],
-      \ 'p' : ['<Plug>VimspectorPause'                         , 'pause'],
-      \ 'r' : ['<Plug>VimspectorRestart'                       , 'restart'],
-      \ 's' : ['<Plug>VimspectorStop'                          , 'stop'],
-      \ }
+" " d is for debug
+" let g:which_key_map.d = {
+"       \ 'name' : '+debug' ,
+"       \ 'b' : ['<Plug>VimspectorToggleBreakpoint'              , 'breakpoint'],
+"       \ 'B' : ['<Plug>VimspectorToggleConditionalBreakpoint'   , 'conditional breakpoint'],
+"       \ 'c' : ['<Plug>VimspectorRunToCursor'                   , 'run to cursor'],
+"       \ 'd' : ['<Plug>VimspectorContinue'                      , 'continue'],
+"       \ 'f' : ['<Plug>VimspectorAddFunctionBreakpoint'         , 'function breakpoint'],
+"       \ 'm' : [':MaximizerToggle'                              , 'maximize window'],
+"       \ 'o' : ['<Plug>VimspectorStepOver'                      , 'step over'],
+"       \ 'O' : ['<Plug>VimspectorStepOut'                       , 'step out'],
+"       \ 'i' : ['<Plug>VimspectorStepInto'                      , 'step into'],
+"       \ 'p' : ['<Plug>VimspectorPause'                         , 'pause'],
+"       \ 'r' : ['<Plug>VimspectorRestart'                       , 'restart'],
+"       \ 's' : ['<Plug>VimspectorStop'                          , 'stop'],
+"       \ }
 
 " f is for find and replace
       " \ 'f' : [':Farr'                     , 'file'],

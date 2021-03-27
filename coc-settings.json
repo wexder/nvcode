@@ -45,8 +45,8 @@
   "diagnostic.warningSign": " ",
   "diagnostic.infoSign": "",
   "diagnostic.hintSign": " ",
-  "diagnostic.displayByAle": true,
-  "diagnostic.virtualText": true, // this won't work with codelens when error on same line
+  /* "diagnostic.displayByAle": true, */
+  /* "diagnostic.virtualText": true, // this won't work with codelens when error on same line */
   // list
   "list.indicator": ">",
   "list.selectedSignText": " ",
@@ -70,13 +70,10 @@
   "python.analysis.autoImportCompletions": true,
   "python.analysis.autoSearchPaths": true,
   "python.analysis.diagnosticMode": "openFilesOnly",
-  "python.analysis.stubPath": "typings",
   "python.analysis.typeshedPaths": [],
   "python.analysis.diagnosticSeverityOverrides": {},
   "python.analysis.typeCheckingMode": "basic",
   "python.analysis.useLibraryCodeForTypes": true,
-  "python.pythonPath": "python",
-  "python.venvPath": "",
   "python.formatting.provider": "black",
   "python.formatting.blackPath": "/usr/local/bin/black",
   "python.formatting.blackArgs": [],

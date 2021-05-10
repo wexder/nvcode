@@ -147,6 +147,13 @@ let g:which_key_map.m = {
       " CoC throws an error
       " \ 'a' : [':CocCommand bookmark.annotate', 'annotate bookmark'],
 
+" r for repl
+let g:which_key_map.r = {
+      \ 'name' : 'repl' ,
+      \ 'r' : [':Repl'                   , 'repl'],
+      \ 's' : [':ReplSend'                   , 'send to repl'],
+      \ 'v' : [":'<,'>ReplSend"                   , 'send visual to repl'],
+      \}
 " s is for search powered by telescope
 let g:which_key_map.s = {
       \ 'name' : '+search' ,

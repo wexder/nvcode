@@ -6,6 +6,7 @@
 
 
 " General Settings
+set nocompatible
 source $HOME/.config/nvim/plug-config/polyglot.vim
 source $HOME/.config/nvim/vim-plug/plugins.vim
 source $HOME/.config/nvim/general/settings.vim
@@ -20,6 +21,7 @@ source $HOME/.config/nvim/themes/material.vim
 source $HOME/.config/nvim/keys/which-key.vim
 source $HOME/.config/nvim/plug-config/vim-commentary.vim
 source $HOME/.config/nvim/plug-config/rnvimr.vim
+source $HOME/.config/nvim/plug-config/vim-go.vim
 source $HOME/.config/nvim/plug-config/better-whitespace.vim
 source $HOME/.config/nvim/plug-config/fzf.vim
 source $HOME/.config/nvim/plug-config/codi.vim
@@ -41,6 +43,7 @@ source $HOME/.config/nvim/plug-config/asynctask.vim
 source $HOME/.config/nvim/plug-config/window-swap.vim
 source $HOME/.config/nvim/plug-config/markdown-preview.vim
 source $HOME/.config/nvim/plug-config/neovide.vim
+source $HOME/.config/nvim/plug-config/reply.vim
 luafile $HOME/.config/nvim/lua/config-telescope.lua
 source $HOME/.config/nvim/plug-config/vimspector.vim
 source $HOME/.config/nvim/plug-config/ale.vim

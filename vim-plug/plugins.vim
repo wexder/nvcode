@@ -82,6 +82,12 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'nicwest/vim-http'   
 " Debug
 Plug 'puremourning/vimspector'
+" Repl
+Plug 'rhysd/reply.vim', { 'on': ['Repl', 'ReplAuto'] }
+
+Plug 'uarun/vim-protobuf'
+
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 call plug#end()
 
 " Automatically install missing plugins on startup

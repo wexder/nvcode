@@ -25,8 +25,6 @@ let g:coc_global_extensions = [
   \ 'coc-json',
   \ 'coc-marketplace',
   \ 'coc-elixir',
+  \ 'coc-java'
   \ ]
-  " \ 'coc-tabnine',
-  " \ 'coc-highlight',
-  " \ 'coc-bookmark',
 

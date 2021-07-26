@@ -93,21 +93,22 @@ let g:which_key_map.a = {
 "       \ }
 
 " " d is for debug
-" let g:which_key_map.d = {
-"       \ 'name' : '+debug' ,
-"       \ 'b' : ['<Plug>VimspectorToggleBreakpoint'              , 'breakpoint'],
-"       \ 'B' : ['<Plug>VimspectorToggleConditionalBreakpoint'   , 'conditional breakpoint'],
-"       \ 'c' : ['<Plug>VimspectorRunToCursor'                   , 'run to cursor'],
-"       \ 'd' : ['<Plug>VimspectorContinue'                      , 'continue'],
-"       \ 'f' : ['<Plug>VimspectorAddFunctionBreakpoint'         , 'function breakpoint'],
-"       \ 'm' : [':MaximizerToggle'                              , 'maximize window'],
-"       \ 'o' : ['<Plug>VimspectorStepOver'                      , 'step over'],
-"       \ 'O' : ['<Plug>VimspectorStepOut'                       , 'step out'],
-"       \ 'i' : ['<Plug>VimspectorStepInto'                      , 'step into'],
-"       \ 'p' : ['<Plug>VimspectorPause'                         , 'pause'],
-"       \ 'r' : ['<Plug>VimspectorRestart'                       , 'restart'],
-"       \ 's' : ['<Plug>VimspectorStop'                          , 'stop'],
-"       \ }
+let g:which_key_map.d = {
+      \ 'name' : '+debug' ,
+      \ 'b' : ['<Plug>VimspectorToggleBreakpoint'              , 'breakpoint'],
+      \ 'B' : ['<Plug>VimspectorToggleConditionalBreakpoint'   , 'conditional breakpoint'],
+      \ 'c' : ['<Plug>VimspectorRunToCursor'                   , 'run to cursor'],
+      \ 'd' : ['<Plug>VimspectorContinue'                      , 'continue'],
+      \ 'f' : ['<Plug>VimspectorAddFunctionBreakpoint'         , 'function breakpoint'],
+      \ 'm' : [':MaximizerToggle'                              , 'maximize window'],
+      \ 'o' : ['<Plug>VimspectorStepOver'                      , 'step over'],
+      \ 'O' : ['<Plug>VimspectorStepOut'                       , 'step out'],
+      \ 'i' : ['<Plug>VimspectorStepInto'                      , 'step into'],
+      \ 'p' : ['<Plug>VimspectorPause'                         , 'pause'],
+      \ 'r' : ['<Plug>VimspectorRestart'                       , 'restart'],
+      \ 's' : ['<Plug>VimspectorStop'                          , 'stop'],
+      \ 'u' : [':CocCommand java.debug.vimspector.start'                          , 'start'],
+      \ }
 
 " f is for find and replace
       " \ 'f' : [':Farr'                     , 'file'],

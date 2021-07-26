@@ -88,6 +88,8 @@ Plug 'rhysd/reply.vim', { 'on': ['Repl', 'ReplAuto'] }
 Plug 'uarun/vim-protobuf'
 
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'editorconfig/editorconfig-vim'
 call plug#end()
 
 " Automatically install missing plugins on startup

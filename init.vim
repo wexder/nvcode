@@ -35,6 +35,7 @@ source $HOME/.config/nvim/plug-config/start-screen.vim
 source $HOME/.config/nvim/plug-config/gitgutter.vim
 source $HOME/.config/nvim/plug-config/git-messenger.vim
 source $HOME/.config/nvim/plug-config/closetags.vim
+source $HOME/.config/nvim/plug-config/editorconfig.vim
 source $HOME/.config/nvim/plug-config/floaterm.vim
 source $HOME/.config/nvim/plug-config/far.vim
 source $HOME/.config/nvim/plug-config/tagalong.vim
@@ -48,6 +49,8 @@ luafile $HOME/.config/nvim/lua/config-telescope.lua
 source $HOME/.config/nvim/plug-config/vimspector.vim
 source $HOME/.config/nvim/plug-config/ale.vim
 source $HOME/.config/nvim/plug-config/quickscope.vim
+source $HOME/.config/nvim/plug-config/treesiter.vim
+
 
 " Add paths to node and python here
 if !empty(glob("~/.config/nvim/paths.vim"))

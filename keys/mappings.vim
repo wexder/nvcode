@@ -68,6 +68,7 @@ else
   inoremap <C-j> <C-\><C-N><C-w>j
   inoremap <C-k> <C-\><C-N><C-w>k
   inoremap <C-l> <C-\><C-N><C-w>l
+  tnoremap <Esc><Esc> <Esc>
   tnoremap <Esc> <C-\><C-n>
 
   " Use alt + hjkl to resize windows
